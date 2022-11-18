@@ -356,24 +356,20 @@ using (var ms = new MemoryStream())
           <caption>Перевозчик</caption>
           <thead>
             <tr id=""table-header"">
-              <th scope=""col"">GUID</th>
               <th scope=""col"">Имя перевозчика</th>
-              <th scope=""col"">Код перевозчика</th>
               <th scope=""col"">Цифровой код перевозчика</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope=""row"">112121212</th>
-              <td>миксвел</td>
-              <td>11111</td>
+              <th scope=""row"">миксвел</th>
               <td>22222</td>
             </tr>
           </tbody>
         </table>
         ";
             var example_css = @"
-.contact{padding-left:500px;text-align:center;}*{font-family:Arial;}
+.contact{padding-left:500px;text-align:center;color:#015BAB;font-weight: 600;}*{font-family:Arial;}
 table {
   table-layout: fixed;
   width: 100%;
