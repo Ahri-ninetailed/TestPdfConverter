@@ -264,7 +264,7 @@ using (var ms = new MemoryStream())
             <br/>
             avia@bpo.travel</p>
             </div>
-            <hr/>
+            <hr style=""height:3px; color:#F1592A;""/>
             <br/>
           <table>
               <caption>Электронный билет</caption>
@@ -380,6 +380,7 @@ table {
 }
 caption {
 margin-bottom: 3px;
+padding-bottom: 15px;
 }
 
 thead th:nth-child(1) {
