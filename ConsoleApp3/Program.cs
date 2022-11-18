@@ -381,6 +381,7 @@ table {
 caption {
 margin-bottom: 3px;
 padding-bottom: 15px;
+font-weight: 600;
 }
 
 thead th:nth-child(1) {
@@ -408,6 +409,7 @@ th {
 #table-header {
   background:#7290C2;
   color:white;
+  font-weight: 600;
 }
 "
             ;
